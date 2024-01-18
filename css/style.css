@@ -1,0 +1,68 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.menu {
+  width: 100%;
+}
+
+#menuItems {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.food {
+  padding: 20px;
+  background: purple;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  width: 100%;
+  max-width: 330px;
+
+  cursor: pointer;
+}
+
+.food img {
+  /* width: 100%;
+  max-width: 150px;
+  height: auto; */
+  width: 100px;
+  height: 100px;
+}
+
+.food h1 {
+  font-size: 20px;
+}
+
+.your_order {
+  width: 100%;
+}
+
+#orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product {
+  padding: 20px;
+  background: purple;
+  border-radius: 12px;
+  border: 1px solid silver;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
